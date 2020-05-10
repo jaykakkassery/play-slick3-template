@@ -1,16 +1,4 @@
 # play-slick3 template project
-[![Build Status](https://travis-ci.org/pedrorijo91/play-slick3-steps.svg)](https://travis-ci.org/pedrorijo91/play-slick3-steps)
-
-Simple working app using play 2.7 and slick 4.0.0 with mysql.
-
-Created since the [available demos](https://github.com/playframework/play-slick/tree/master/samples) have too much irrelevant code to who wants to integrate slick with a play app.
-
-Removed some code such as:
-
-* Traits and implementation classes
-* Useless controllers
-* Support for i18n
-* activator
 
 ## Getting Started
 
