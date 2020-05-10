@@ -1,4 +1,4 @@
-# play-slick3-steps example
+# play-slick3 template project
 [![Build Status](https://travis-ci.org/pedrorijo91/play-slick3-steps.svg)](https://travis-ci.org/pedrorijo91/play-slick3-steps)
 
 Simple working app using play 2.7 and slick 4.0.0 with mysql. Step by step tutorial at [https://pedrorijo91.github.io/blog/play-slick/](https://pedrorijo91.github.io/blog/play-slick/)
