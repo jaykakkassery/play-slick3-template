@@ -16,3 +16,15 @@ To run this demo using sbt:
  * Open the Play web server at <http://localhost:9000>
  * You should be prompted to apply the evolution script. Apply the script.
  * You should now see the app running.
+ 
+ To run this demo using docker:
+ 
+ sbt clean
+ sbt dist
+ sbt docker:publishLocal
+ docker-compose up
+ docker-compose up
+
+
+
+
