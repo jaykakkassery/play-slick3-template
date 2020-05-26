@@ -19,10 +19,10 @@ To run this demo using sbt:
  
  To run this demo using docker:
  
- sbt clean
- sbt dist
- sbt docker:publishLocal
- docker-compose up
+ sbt clean </br>
+ sbt dist </br>
+ sbt docker:publishLocal </br>
+ docker-compose up </br>
  docker-compose up
 
 
