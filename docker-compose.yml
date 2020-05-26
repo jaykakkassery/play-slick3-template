@@ -1,0 +1,21 @@
+version: '3'
+services:
+  mysqldb:
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    ports:
+      - 3306:3306
+  myplay:
+    image: slick3play:1.0-SNAPSHOT
+    volumes:
+      - "./data:/var/lib/mysql"
+    environment:
+      - APPLICATION_SECRET=so0kn@5Qona6VAJ]tl7wph?avgzKMH_9g4CiFFkKY:LD<Z?J2p4AbcRSRvxCVMOl
+      - DB_PROFILE=slick.jdbc.MySQLProfile$$
+      - DB_DRIVER=com.mysql.jdbc.Driver
+      - DB_URL=jdbc:mysql://mysqldb/example?serverTimezone=UTC
+      - DB_USER=root
+      - DB_PASSWORD=root
+    ports:
+      - 9000:9000
